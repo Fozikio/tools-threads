@@ -1,6 +1,6 @@
 {
   "name": "@fozikio/tools-threads",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Thought threads for AI agents — create, track, and resolve ongoing lines of thinking. Plugin for cortex-engine.",
   "type": "module",
   "main": "dist/index.js",
