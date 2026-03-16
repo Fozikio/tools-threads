@@ -1,7 +1,7 @@
 {
   "name": "@fozikio/tools-threads",
   "version": "0.1.2",
-  "description": "Thread management tools plugin for cortex-engine",
+  "description": "Thought threads for AI agents — create, track, and resolve ongoing lines of thinking. Plugin for cortex-engine.",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -22,7 +22,12 @@
     "cortex",
     "plugin",
     "threads",
-    "mcp"
+    "mcp",
+    "ai-agent",
+    "memory",
+    "conversation",
+    "thought-tracking",
+    "fozikio"
   ],
   "license": "MIT",
   "author": "Fozikio <hello@fozikio.com>",
@@ -34,5 +39,10 @@
   "funding": {
     "type": "github",
     "url": "https://github.com/sponsors/idapixl"
-  }
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ]
 }
