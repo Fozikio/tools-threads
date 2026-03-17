@@ -2,7 +2,7 @@
  * threads_list — list thought threads with filters.
  */
 
-import type { ToolDefinition, ToolContext, QueryFilter } from 'cortex-engine';
+import type { ToolDefinition, ToolContext, QueryFilter } from '@fozikio/cortex-engine';
 
 const COLLECTION = 'threads_v2';
 

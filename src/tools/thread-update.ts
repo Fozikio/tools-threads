@@ -2,7 +2,7 @@
  * thread_update — update a thread's status, content, or metadata.
  */
 
-import type { ToolDefinition, ToolContext } from 'cortex-engine';
+import type { ToolDefinition, ToolContext } from '@fozikio/cortex-engine';
 
 const COLLECTION = 'threads_v2';
 
