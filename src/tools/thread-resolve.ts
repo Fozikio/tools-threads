@@ -9,6 +9,8 @@ const COLLECTION = 'threads_v2';
 export const threadResolveTool: ToolDefinition = {
   name: 'thread_resolve',
   description: 'Resolve a thread with a resolution note.',
+  category: 'threads',
+  whenToUse: 'When resolving a thread as completed or concluded with a resolution note',
   inputSchema: {
     type: 'object',
     properties: {

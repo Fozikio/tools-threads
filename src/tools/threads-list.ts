@@ -9,6 +9,8 @@ const COLLECTION = 'threads_v2';
 export const threadsListTool: ToolDefinition = {
   name: 'threads_list',
   description: "List thought threads. Filter by status (default 'open'), project, kind, or tag.",
+  category: 'threads',
+  whenToUse: 'When listing open threads, optionally filtered by project, kind, or tag',
   inputSchema: {
     type: 'object',
     properties: {

@@ -9,6 +9,8 @@ const COLLECTION = 'threads_v2';
 export const threadUpdateTool: ToolDefinition = {
   name: 'thread_update',
   description: 'Update a thread — change status, edit title/body, add session refs, link memories.',
+  category: 'threads',
+  whenToUse: 'When updating an existing thread with new progress, blocking info, or status changes',
   inputSchema: {
     type: 'object',
     properties: {

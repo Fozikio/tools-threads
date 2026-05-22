@@ -9,6 +9,8 @@ const COLLECTION = 'threads_v2';
 export const threadCreateTool: ToolDefinition = {
   name: 'thread_create',
   description: 'Create a new thought thread for tracking ongoing questions, explorations, or topics.',
+  category: 'threads',
+  whenToUse: 'When creating a new thought thread for an ongoing question, exploration, or creative project',
   inputSchema: {
     type: 'object',
     properties: {
